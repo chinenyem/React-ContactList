@@ -1,0 +1,47 @@
+//Variables
+$font-main: 'Open Sans', sans-serif;
+$font-color: #ffffff;
+
+body {
+  background: #eeeeee;
+
+}
+
+//////////////////Header Section///////////////////////////
+
+h1 {
+  text-align: center;
+}
+
+.header-main {
+  background: #f3b60c;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 2%;
+  font-family: $font-main;
+  color: $font-color;
+
+}
+
+
+/////////////////Contact Input fields ///////////////////////
+
+
+.card-main {
+  margin-left: 24%;
+  margin-top: 2%;
+
+}
+
+.card-search, .card-add {
+  text-align: center;
+}
+
+.card-input {
+  border-radius: 0;
+  outline: none;
+  border: .5px solid white;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.25), 0 1px 3px rgba(0,0,0,0.22);
+  height: 56px;
+  margin-bottom: 2%;
+}
+
